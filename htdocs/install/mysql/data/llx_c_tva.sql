@@ -63,6 +63,11 @@ insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 2
 insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 23,  2,  '21','0','VAT standard rate',1);
 insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 24,  2,  '12','0','VAT reduced rate', 1);
 
+-- Algérie (id country=13)
+insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 1300, 1,  '0', '0', 'Exonérer de TVA',1);
+insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 1301, 1,  '9', '0', 'TVA 9% Services',1);
+insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values ( 1302, 1, '19', '0', 'TVA 19% Produits',1);
+
 -- CANADA (id country=14)
 insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values (141, 14,   '0','0','VAT Rate 0',1);
 insert into llx_c_tva(rowid,fk_pays,taux,recuperableonly,note,active) values (142, 14,   '7','0','VAT standard rate',1);
