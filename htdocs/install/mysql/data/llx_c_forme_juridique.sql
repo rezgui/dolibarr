@@ -239,6 +239,16 @@ insert into llx_c_forme_juridique (fk_pays, code, libelle) values (10, '1005','S
 insert into llx_c_forme_juridique (fk_pays, code, libelle) values (10, '1006','Groupement d''intérêt économique (GEI)');
 insert into llx_c_forme_juridique (fk_pays, code, libelle) values (10, '1007','Groupe de sociétés');
 
+-- Algérie (Formes les plus utilisées)
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1300','Société à responsabilité limitée (SARL)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1301','Entreprise unipersonnelle à responsabilité limitée (EURL)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1302','Société en nom collectif (SNC)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1303','Société par actions (SPA)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1304','Société en participation (SEP)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1305','Société en commandite simple (SCS)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1306','Groupement d''intérêt économique (GEI)');
+insert into llx_c_forme_juridique (fk_pays, code, libelle) values (13, '1307','Groupe de sociétés');
+
 -- The Netherlands
 INSERT INTO llx_c_forme_juridique (fk_pays,code,libelle,isvatexempted,active,module) VALUES (17,1701,'Eenmanszaak',0,1,NULL);
 INSERT INTO llx_c_forme_juridique (fk_pays,code,libelle,isvatexempted,active,module) VALUES (17,1702,'Maatschap',0,1,NULL);
